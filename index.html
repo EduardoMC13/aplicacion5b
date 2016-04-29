@@ -1,0 +1,387 @@
+﻿ <!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Tercera Aplicacion</title>
+ 
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/temas4g.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js" type="text/javascript"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  </head>
+ 
+  <body onLoad="MM_preloadImages('imagenes/popocatepelt2.jpg','imagenes/c3.jpg','imagenes/tierra 2.jpg','imagenes/ma.jpg','imagenes/tipos contaminacion.JPG','imagenes/maxresdefault.jpg','imagenes/gg.jpg')">
+  <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1> La Tierra Y su Contaminacion</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:640px;height:195px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+  </div>
+  
+  <br>
+<br>
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>La Tierra </h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Cuidado Del Medio Ambiente</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Tipos De Contaminacion</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Calentamiento Global</h2>
+  </a>
+  </li>
+    <li class="ui-first-child ui-last-child">
+  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Contaminacion En Mi Localidad</h2>
+  </a>
+  </li>
+  </ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>APP5</h4>
+  <h4>Morales Corona Eduardo</h4>
+  </div>
+  </div>
+  </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>La Tierra</h1>
+  </div>
+  <div data-role="content">
+  <center>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/tierra 2.jpg',1)"><img src="imagenes/tierra1.jpg" width="259" height="208" id="Image9"></a>
+  </center>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Informacion</h1>
+  <div>
+  <p>La Tierra es el tercer planeta desde el Sol y el quinto del Sistema Solar en cuanto a tamaño.Es el único planeta conocido que tiene vida, aunque algunos de los otros planetas tienen atmósferas y contienen agua.</p>
+
+<p>La Superficie del planeta Tierra Gira describiendo una órbita elíptica alrededor de su estrella, nuestro Sol, a unos 150 millones de km, en, aproximadamente, un año. Al mismo tiempo gira sobre su propio eje cada día.
+
+La Tierra no es una esfera perfecta, ya que el ecuador se engrosa 21 km, el polo norte está dilatado 10 m y el polo sur está hundido unos 31 metros.
+
+La Tierra posee una atmósfera rica en oxígeno, temperaturas moderadas, agua abundante y una composición química variada. El planeta se compone de rocas y metales, sólidos en el exterior, pero fundidos en el interior.</p>
+ </div>
+ </div>
+ 
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Dia De La Tierra</h1>
+   <div>
+   <p> Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
+   <h3>Origen del término</h3>
+   <p>De acuerdo con Gaylord Nelson, el término “Día de la Tierra”, era “un nombre obvio y lógico”, sugerido por “ciertas personas” en el otoño de 1969, incluido, afirma, “un amigo mío que había estado en el campo de las relaciones públicas y un ejecutivo de publicidad de New York”, Julian Koenig,5 quien había estado en el comité organizador de Nelson en 1969. La idea se le ocurrió a Koeing por la coincidencia entre su cumpleaños y el día escogido, el 22 de abril; en inglés, Earth Day (Día de la Tierra) rima con birthday (cumpleaños), la conexión parecía natural.6 7 Otros nombres circularon durante las preparaciones –el mismo Nelson continuó llamándolo National Environment Teach-In (Encuentro Nacional del Medio Ambiente), pero el coordinador nacional, Denis Hayes, usó el término Día de la Tierra en sus comunicados y la cobertura de prensa del evento fue prácticamente unánime en el uso del término Día de la Tierra, así que el nombre se quedó.</p>
+  </div>
+  </div>
+   <div data-role="collapsible" data-content-theme="false">
+  <h1>Para Mas Informacion</h1>
+   <div>
+  <iframe src="http://www.astromia.com/solar/tierra.html style="width:100%;height:100%;max-width:500%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+</div>
+</div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a"data-position="fixed">
+  <div>
+  <h4>APP5</h4>
+  <h4>Morales Corona Eduardo</h4>
+  </div>
+  </div>
+  </div>
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Cuidado Del Medio Ambiente</h1>
+  </div>
+  <div data-role="content">
+  <center>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/ma.jpg',1)"><img src="imagenes/ma1.jpg" width="306" height="274" id="Image8"></a>
+  </center>
+   <p>El medio ambiente alberga al conjunto de componentes, tanto bióticos (organismo vivos) como abióticos (materia inorgánica), que rodean a las especies y que le permiten vivir. Nuestro medio ambiente es nuestro soporte de vida así como todos sus componentes: aire, agua, atmósfera, rocas, vegetales, animales, etc.</p>
+   <p>Todo ser humano debería de preocuparse por el medio ambiente, por su cuidado y por protegerlo, porque creo que a nadie se nos pasa por alto la importante necesidad de hacer algo cuanto antes ante el a debacle que se avecina, sólo tenemos que fijarnos en todo lo que está ocurriendo en el Ártico para tomarnos en serio cómo estamos poniendo en peligro la naturaleza.</p>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Consecuencias de no cuidar el medio ambiente</h1>
+   <div>
+   <center>
+     <img src="imagenes/Caos.Jpeg" width="258" height="228">
+   </center>
+  <p>El mundo ha sido testigo de las consecuencias ocasionadas por el maltrato del medio ambiente. La aparición de huracanes, la crecida del mar, el recalentamiento global y las lluvias incontrolables, entre otros, son sólo una faceta de las repercusiones que puede acarrear la falta de cuidado de nuestro hábitat. </p>
+
+<p>El mundo está siendo apaleado por el efecto invernadero (recalentamiento global), que no sólo provoca desórdenes ambientales como los ya mencionados sino que también acrecienta la presencia de enfermedades como el dengue, el paludismo y el hanta virus. Los síntomas del planeta tierra son más que obvios, la reducción de los glaciares de la Patagonia y los Andes, las lluvias más prolongadas, los calores intensos en épocas invernales, las sequías, son sólo el principio. </p>
+
+<p>Se pronostica que al final de este siglo, el calentamiento global ascenderá entre 1.5 y 3 grados, sólo si los países más generadores de “gases de efecto invernadero” reducen la emisión de gases. Además, que todos los países comiencen a regular la eficiencia energética, ahorrar energía, cuidar los bosques, entre muchas otras opciones. Todo esto con el fin de lograr un objetivo que puede sonar trillado “lograr de este, un mundo mejor”. </p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Como cuidar el medio ambiente</h1>
+  <center>
+    <img src="imagenes/cuidar.jpg" width="273" height="273">
+  </center>
+   <div><p>Es el deber de todos cuidar el medio ambiente﻿ para vivir en un ambiente sano y equilibrado ecológicamente. Existen varias formas de cuidado como por ejemplo:</p>
+ <ul><li>Manejo de los bosques. Protección de los suelos y reforestación.
+ Reducción de la pesca excesiva.</li>
+<li>No desperdiciar los recursos como el agua o las áreas verdes de los que otros se pueden favorecer y así contribuir al equilibrio del planeta.</li>
+ <li>Reducir, reciclar y reutilizar. Principalmente las cosas de vidrio, papel y plástico, aunque también puede aplicarse a las pilas alcalinas.</li>
+<li>Antes de tirar cualquier cosa a la basura, piensa si se puede reutilizar, reciclar o reparar, o si puede ser útil para otra persona.</li></ul>
+<p>Existen muchas formas de cuidado; depende de nosotros y a la larga es un beneficio para todos.</p>
+  </div>
+  </div>
+ 
+   <div data-role="collapsible" data-content-theme="false">
+  <h1>Las tres erres (3R)</h1>
+   <div>
+   <center>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imhbv','','imagenes/gg.jpg',1)"><img src="imagenes/3r.jpg" width="220" height="155" id="Imhbv"></a>
+   </center>
+  <p>Las tres erres (3R) es una regla para cuidar el medio ambiente, específicamente para reducir el volumen de residuos o basura generada. En pocas palabras, las 3R te ayudan a tirar menos basura, ahorrar dinero y ser un consumidor más responsable, así reduciendo tu huella de carbono. Y lo mejor de todo es que es muy fácil de seguir, ya que sólo tiene tres pasos: reducir, reutilizar y reciclar. </p>
+
+<p><strong>Reducir:</strong>Disminuir la cantidad de recursos que utilizamos por medio de otros hábitos y/o técnicas; por ejemplo no pedir bolsas en los supermercados a menos que sea necesario, reducir el consumo de papel etc. </p>
+
+<p><strong>Reutilizar:</strong>La mayoría de los materiales que usamos día a día pueden ser reutilizados de alguna manera: imprimir el papel por los dos lados, reutilizar la madera de tarimas, donar libros, aparatos eléctricos etc. </p>
+<p><strong>Reciclaje:</strong>Debe de ser la última opción si es que las otras dos R´s no funcionaron o en su defecto, el reciclaje es inevitable. El reciclaje es una manera de aprovechar los materiales, sin embargo hay que recordar que al reciclar se gasta energía y se contamina al reprocesar. La mayoría de todos los materiales que usamos pueden ser reciclados y usados en otras aplicaciones; materiales como el vidrio, pueden reciclarse 40 veces por ejemplo. Es nuestro compromiso reciclar lo mayor posible y disminuir la producción de basura. </p>
+</div>
+  </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+ <h4>APP5</h4>
+  <h4>Morales Corona Eduardo</h4>
+  </div>
+  </div>
+  </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Tipos De Contaminacion</h1>
+  </div>
+ <div data-role="content" >
+ <center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/tipos contaminacion.JPG',1)"><img src="imagenes/tipos contaminacion1.png" width="273" height="282" id="Image10"></a>
+     </center>
+     <p>Podemos enteder la contaminación como el deterioro de las condiciones naturales del ambiente por la presencia de elementos diversos que afectan negativamente las condiciones de vida de los seres vivos.
+
+La contaminación pude ser de origen natural o por la acción humana.</p>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación del agua.</h1>
+  <center>
+    <img src="imagenes/agua.jpg" width="275" height="247">
+  </center>
+   <div><p>La contaminación del agua se refiere a la elteración de las condiciones naturales del agua de rios, lagos, yacimientos, mares, etc. producida por distintas actividades como: deshecho de residuos sólidos y líquidos domésticos e industriales de cualquier tipo. Uno de los cantaminantes más improtantes del agua es el petróleo que se derrama en el agua de mar por accidentes en plataformas petroleras, o por el hundimiento de barcos portadores de este combustible.</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación del aire.</h1>
+  <center>
+    <img src="imagenes/aire.jpg" width="274" height="232">
+  </center>
+   <div><p>Ocurre por la presencia de contaminantes disueltos en el aire o suspendidos en el y que alteran su calidad y que afectan la susbsistencia de los seres vivos.
+
+Loa pricipales contaminantes del aire son los gases de combustión, CO, CO2, NOx, SOx que se producen por los automóviles, por las industrias, hogares, y la quema de cualquier combustible. Las partículas suspendidas contaminnates que se encuentran el el aire pueden ser cualquier tipo de polvo provocado por actividades industriales o por la construcción. Los incendios foréstales y la s erupciones volcánicas son uns fuente importante de contaminantes del aire.</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación del suelo.</h1>
+  <center>
+    <img src="imagenes/suelo.jpg" width="261" height="234">
+  </center>
+   <div><p>Es el desequilibrio físico, químico y biológico del suelo y que afecta a los seres vivos sean estos plantas o organismos vivos.
+
+Se produce por desechar compuestos extraños al suelo como por ejemplo aceites o disolventes, petróleo, fertilizantes, pesticidas y otros productos agroquímicos usados en exceso. La defosrestación y el derrame de residuos sólidos de minas tambien se consideran fromas de contaminación. El arrojar basura en suelo es contaminación.</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación sonora.</h1>
+  <center>
+    <img src="imagenes/sonora.jpg" width="227" height="198">
+  </center>
+   <div><p>También llamada contaminación auditiva, es la contaminación por el ruido que molesta la tranquilidad y la salud de todos los seres vivos. El ruido lo causan muchas actividades humanas, coches, aviones, motores, máquinas industreiales, la música a lalto volumen, explosiones, la industria de la contrucción, etc.
+</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación visual</h1>
+  <center>
+    <img src="imagenes/visual.jpg" width="241" height="206">
+  </center>
+   <div><p>Es la ruptura del equilibrio natural del paisaje por la gran cantidad de avisos publicitarios o colores que por su variedad e intensidad afectan las condiciones de vida de los seres vivos. La causan los letreros o anuancios publicitarios, los colores y luces intensos, y el crecimiento de la mancha urbana.</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación térmica</h1>
+  <center>
+    <img src="imagenes/termica.jpg" width="252" height="187">
+  </center>
+   <div><p>Se refiere a el aumento de la temperatura de la tierra y que produce cambios en el clima y diversos fenómenos climáticos como sequías, inundaciones, etc.provocado por diversas fuentes de energía como gases de invernadero, motores, luces o por el calor emitido por actividades industriales o el uso de maquinaria.
+</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación radioactiva.</h1>
+  <center>
+    <img src="imagenes/radiactiva.jpg" width="223" height="202">
+  </center>
+   <div><p>Es la contaminación del ambiente ocasinado por los desechos radiactivos. Pude ocurrir por un accidente o por el desecho no controlado de sustancias radiactivas a la basura. Los accidentes en plantas nucleares ha sido la principal causa de contaminación radioactiva.
+</p>
+  </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación lumínica.</h1>
+  <center>
+    <img src="imagenes/luminica.gif" width="243" height="162">
+  </center>
+   <div><p>Es la contaminación por un exceso de luz en el ambiente causada por la iluminación en las ciudades.</p>
+  </div>
+  </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>APP5</h4>
+  <h4>Morales Corona Eduardo</h4>
+  </div>
+ </div>
+ </div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Calentamiento Global</h1>
+   </div>
+ <div data-role="content" >
+  <div>
+    <center> 
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/maxresdefault.jpg',1)"><img src="imagenes/calentamiento.jpg" width="228" height="192" id="Image18"></a>
+    </center>
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>¿Que Es?</h1>
+    <p>  El calentamiento global es el aumento continuo de la temperatura promedio global de la atmósfera terrestre y de los océanos.</p>
+
+<p>El calentamiento global es un fenómeno que ocurre cuando hay demasiados gases de efecto invernadero en el atmósfera. El efecto invernadero es un proceso que se produce cuando ciertos gases de la atmósfera de la tierra retienen el calor. Estos gases dejan pasar la luz pero mantienen el calor como las paredes de cristal de un invernadero.</p>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Causas</h1>
+      <ul>
+      <li>Uso de combustibles fósiles (carbón y petróleo) como fuentes de energía en la industria y el transporte.</li><br>
+      <li>El exceso de incendios forestales, motivado por la mano del hombre, contribuyen en la aceleración del proceso del calentamiento global.</li><br>
+      <li>La quema de combustibles fósiles, carbón, petróleo y gas, y la destrucción de bosques, se han convertido en las principales causas de la emisión a la atmósfera de dióxido de carbono (CO2), el gas más peligroso en la generación del efecto invernadero.</li><br>
+      <li>La actividad Ganadera.</li><br>
+ <li>Descomposición de la basura.</li>
+      </ul>
+       <div>
+    <center>
+      <img src="imagenes/causas.jpg" width="314" height="207">
+    </center>
+    </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Consecuencias</h1>
+      <ul>
+        <li>Subida en el nivel del mar.</li><br>
+        <li>Extinción de especies animales y vegetales.</li><br>
+        <li>Calentamiento de los mares tropicales y templados.</li><br>
+        <li>Deshielo de los glaciares.</li><br>
+        <li>Cambios en los ecosistemas.</li><br>
+        
+      </ul>
+      <div>
+    <center> <img src="imagenes/conoce-a-los-animales-amenazados-por-el-calentamiento-global.jpg" width="261" height="218"></center>
+    </div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Como Resolverlo</h1>
+   <ul>
+        <li>Potenciar las energías renovables</li><br>
+        <li>Disminuir el uso del automóvil</li><br>
+        <li>Plantar árboles. </li><br>
+        <li>Reciclar</li><br>
+        <li>Elegir electrodomésticos eficientes. </li><br>
+        
+      </ul>
+        <div>
+    <center> <img src="imagenes/prevension.jpg" width="279" height="209"></center>
+    </div>
+  </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+ <h4>APP5</h4>
+  <h4>Morales Corona Eduardo</h4>
+  </div>
+ </div>
+ </div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Contaminacion En Mi Localidad</h1>
+   </div>
+ <div data-role="content" >
+   <!-- Start WOWSlider.com -->
+<iframe src="visor1/indexwow1.html" style="width:960px;height:195px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+ <div data-role="collapsible" data-content-theme="false">
+
+   <h1>Problemas </h1>
+      <ul>
+      <li>Basura Tirada En Las Calles</li><br>
+      <li>Tala De arboles </li><br>
+      <li>Incendios</li><br>
+      <li>Basura En Las Calles</li>
+      </ul>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Soluciones </h1>
+      <ul>
+      <li>Organizar Una Reunion Y Tratar El Tema Con Los Vecinos .</li><br>
+      <li>Colocar Botes De Basura En Cada Esquina.</li><br>
+      <li>Sancionar Al Que Sea Sorpredido Arrojando Basura A  Las Calle O Al Rio.</li><br>
+      <li>Prohibir La tala De Arboles.</li><br>
+       <li>Prohibir La Quema De Materiales Que Pudiesen Producir Un Incendio.</li>
+      </ul>
+
+  </div>
+</div>
+  <div data-role="footer" align="center" data-theme="a"data-position="fixed">
+  <h4>APP5</h4>
+  <h4>Morales Corona Eduardo</h4>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
